@@ -1,6 +1,6 @@
-tictactoe
+Sudoku Oven
 =========
 
-Tic tac toe game in python with AI for computer moves
+Python Flask
 
-Optimized for straightforward code, not load time.
+Engine to input customizations, create a sudoku board and test that there is a unique solution, and output a playable sudoku game.

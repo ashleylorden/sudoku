@@ -1,27 +1,32 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: #5A2F17;
 }
 
 div#head {
 	width: 100%;
-	height: 50px;
-	border-bottom: 5px solid black;
+	height: 80px;
+	background-color: #FFB96E;
+	border-bottom: 5px solid #31694D;
 }
 
 h1 {
 	text-align: center;
-	font-size: 60px;
+	font-size: 70px;
 }
 
-div.options {
-	width: 450px;
-	height: 180px;
+div#content {
+}
+
+div#prep {
+	width: 900px;
 	margin: 30px auto;
-	border: 2px solid gray;
 	-moz-border-radius:15px;
 	-webkit-border-radius:15px;
 	border-radius:15px;
+	background-color: #FFB96E;
+	background-color: rgba(255,185,110,.5);
 }
 
 img.choice {
@@ -42,3 +47,12 @@ button#playbutton {
 	font-size: 18px;
 	border: 2px solid red;
 }
+
+/*
+COLORS!
+brown 5A2F17
+purple 732F31
+red 923109
+green 31694D
+cream FFB96E
+*/
