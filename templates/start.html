@@ -1,0 +1,24 @@
+{% extends "sudoku.html" %}
+{% block content %}
+<div id="prep">
+	<p>Get ready to make something awesome in the Sudoku Oven!</p>
+	<div id="ingredients">
+		First choose how much to make
+		<optgroup>
+			<option>2x2</option>
+			<option>3x3</option>
+			<option>4x4</option>
+		</optgroup>
+		And your ingredients
+		<span class="help">Traditionally numbers 1-9</span>
+	</div>
+	<div id="recipe">
+		Then select a recipe
+		<optgroup>
+			<option>easy</option>
+			<option>medium</option>
+			<option>hard</option>
+		</optgroup>
+	</div>
+</div>
+{% endblock %}
