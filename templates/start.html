@@ -1,24 +1,23 @@
 {% extends "sudoku.html" %}
 {% block content %}
-<div id="prep">
-	<p>Get ready to make something awesome in the Sudoku Oven!</p>
-	<div id="ingredients">
-		First choose how much to make
-		<optgroup>
-			<option>2x2</option>
-			<option>3x3</option>
-			<option>4x4</option>
-		</optgroup>
-		And your ingredients
-		<span class="help">Traditionally numbers 1-9</span>
+	<div class="pageTitle">Get ready to make something awesome in the Sudoku Oven!</div>
+	<div id="left" class="col2">
+		<div id="ingredients">
+			<p>First choose how much to make</p>
+			<button class="size" id="4">2x2</button>
+			<button class="size" id="9">3x3</button>
+			<button class="size" id="16">4x4</button>
+			<p>And your ingredients</p>
+			<span class="help">Traditionally numbers 1-9</span>
+			<br>
+		</div>
 	</div>
-	<div id="recipe">
-		Then select a recipe
-		<optgroup>
-			<option>easy</option>
-			<option>medium</option>
-			<option>hard</option>
-		</optgroup>
+	<div id="right" class="col2">
+		<p>Then select a recipe</p>
+		<button class="level" id="1">easy</button>
+		<button class="level" id="2">medium</button>
+		<button class="level" id="3">hard</button>
+		<br>
+		<button class="gobutton" id="oven">It's ready for the oven</button>
 	</div>
-</div>
 {% endblock %}
